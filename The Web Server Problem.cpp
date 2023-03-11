@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     ll n;
-    cin >> n;
+    cin >> n; 
     vector<pair<ll, pair<ll, ll>>> v(n);
     for (ll i = 0; i < n; i++)
         cin >> v[i].first >> v[i].second.first >> v[i].second.second;
